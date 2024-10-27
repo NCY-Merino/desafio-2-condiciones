@@ -1,0 +1,124 @@
+.body-inicial {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body-inicial .pagina {
+    width: 30%;
+    position: relative;
+    border: 1px solid black;
+    margin: 0 5px;
+}
+
+.body-inicial .pagina img{
+    width: 100%;
+}
+
+.body-inicial h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    margin: auto;
+}
+
+.body-inicial h1 span{
+    font-size: 14px;
+}
+
+.link-volver {
+ position: absolute;
+ left: 20px;
+ top: 20px;
+}
+/*** Única imagen ***/
+.imagen_unica {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagen_unica img {
+    margin: 10px auto;
+    width: 95%;
+}
+
+.imagen_unica img.con-border {
+    border: 2px solid red;
+}
+
+/**** Stickers ****/
+.body-stickers {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body-stickers .listado {
+    display: flex;
+}
+
+.body-stickers .listado .sticker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-stickers .listado .sticker img {
+    width: 200px;
+}
+
+.body-stickers .listado .sticker input {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.body-stickers span {
+    display: block;
+    text-align: center;
+    height: 20px;
+    color: black;
+    margin: 5px auto;
+}
+
+/*** Password ***/
+
+.body-password {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body-password .listado {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.body-password .listado select {
+    margin: 5px;
+}
+
+.body-password span {
+    display: block;
+    text-align: center;
+    height: 20px;
+    color: black;
+    margin: 10px auto;
+}
